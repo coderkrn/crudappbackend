@@ -4,7 +4,7 @@ const app = express();
 const databaseConnection = require('./database')
 databaseConnection();
 const users = require('./models/userSchema')
-const cors = require('cors')
+const cors = require('cors');
 
 const port = process.env.PORT || 8000;
 
